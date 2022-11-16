@@ -11,8 +11,8 @@ Zunächst habe ich die Datei im LightMode geöffnet. Anschließend habe ich auf 
 ```mvn test-compile```
 
 ## Aufgabe 4
-Zunächst habe ich die POM-Datei um das Element "dependencies" erweitert und anschließend dieses um ein "dependency" Element, 
-für jUnit, erweitert. 
+Zunächst habe ich die POM-Datei um das Element "dependencies" erweitert und anschließend dieses um 2 "dependency" Elemente, 
+für jUnit & AssertJ, erweitert. 
 
 Zusammengefasst ergab sich diese Änderung/Erweiterung in der POM-Datei:
 ```
@@ -21,6 +21,12 @@ Zusammengefasst ergab sich diese Änderung/Erweiterung in der POM-Datei:
     <groupId>org.junit.jupiter</groupId>
     <artifactId>junit-jupiter-api</artifactId>
     <version>5.9.1</version>
+    <scope>test</scope>
+  </dependency>
+  <dependency>
+    <groupId>org.assertj</groupId>
+    <artifactId>assertj-core</artifactId>
+    <version>3.23.1</version>
     <scope>test</scope>
   </dependency>
 </dependencies>
