@@ -55,6 +55,6 @@ Erweiterung der Jacoco Dependency um folgendes Element:
 ```
 Hierbei handelt es sich um den allgemeinen Syntax. Alle möglichen Argumente können [hier]([https://link-url-here.org](https://www.eclemma.org/jacoco/trunk/doc/prepare-agent-mojo.html)) gefunden werden.
 
-Anschließend (in IntelliJ) zu "Run -> Edit Configurations" navigieren und eine neue Konfiguration erstellen. Dazu auf "+" klicken, "jUnit" auswählen und JaCoCo als Coverage-Runner auswählen ("Modify Options -> Specify alternative coverage runner").
+Anschließend (in IntelliJ) zu "Run -> Edit Configurations" navigieren und eine neue Konfiguration erstellen. Dazu auf "+" klicken, "jUnit" auswählen und JaCoCo als Coverage-Runner auswählen ("Modify Options -> Specify alternative coverage runner"). Die Konfiguration von JaCoCo kann außerdem über das gleiche Fenster ("Modify") erfolgen.
 
 ## Aufgabe 6
