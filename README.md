@@ -50,7 +50,7 @@ Anweisungen, Branches, Codezeilen, Methoden, Typen und zyklomatischer Komplexit�
 Erweiterung der Jacoco Dependency um folgendes Element:
 ```
 <configuration>
-      <argLine>@{argLine} -your -extra -arguments</argLine>
-    </configuration>
+  <argLine>@{argLine} -your -extra -arguments</argLine>
+</configuration>
 ```
 Hierbei handelt es sich um den allgemeinen Syntax. Alle möglichen Argumente können [hier]([https://link-url-here.org](https://www.eclemma.org/jacoco/trunk/doc/prepare-agent-mojo.html)) gefunden werden.
