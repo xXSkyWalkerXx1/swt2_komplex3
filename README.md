@@ -58,28 +58,33 @@ Hierbei handelt es sich um den allgemeinen Syntax. Alle möglichen Argumente kö
 Anschließend (in IntelliJ) zu "Run -> Edit Configurations" navigieren und eine neue Konfiguration erstellen. Dazu auf "+" klicken, "jUnit" auswählen und JaCoCo als Coverage-Runner auswählen ("Modify Options -> Specify alternative coverage runner"). Die Konfiguration von JaCoCo kann außerdem über das gleiche Fenster ("Modify") erfolgen.
 
 ## Aufgabe 6
-Notizen:
+1. Neue Klasse, unter "src -> test -> java" erstellt
+2. jUnit in die Datei importiert:
+```
+import junit.framework.Assert;
+import org.junit.jupiter.api.*;
+```
+3. Testfälle entwickelt sowie Fehler behoben
 
-### Line35
-Changed
+### Behobene Fehler
+
+#### Zeile 35:
 ```
 if (end != null); {end.next = e;}
 ```
-to
+geändert zu
 ```
 if (end != null) {end.next = e;}
 ```
 
-### Line 68
-Changed
+### Zeile 68
 ```
 public E next() {
    current = current.next;
    return current.elem;
 }
 ```
-to
-
+geändert zu
 ```
 public E next() {
    Elem last = current;
