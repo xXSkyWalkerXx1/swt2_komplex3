@@ -68,7 +68,7 @@ import org.junit.jupiter.api.*;
 
 ### Behobene Fehler
 
-#### Zeile 35:
+* #### Zeile 35:
 ```
 if (end != null); {end.next = e;}
 ```
@@ -77,7 +77,7 @@ geändert zu
 if (end != null) {end.next = e;}
 ```
 
-#### Zeile 68
+* #### Zeile 68
 ```
 public E next() {
    current = current.next;
