@@ -70,13 +70,20 @@ to
 if (end != null) {end.next = e;}
 ```
 
-### Line 60
+### Line 68
 Changed
 ```
-public boolean hasNext() {return current != null;}
+public E next() {
+   current = current.next;
+   return current.elem;
+}
 ```
 to
 
 ```
-public boolean hasNext() {return current.next != null;}
+public E next() {
+   Elem last = current;
+   current = current.next;
+   return last.elem;
+}
 ```
