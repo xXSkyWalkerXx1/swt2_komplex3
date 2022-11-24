@@ -69,3 +69,14 @@ to
 ```
 if (end != null) {end.next = e;}
 ```
+
+### Line 60
+Changed
+```
+public boolean hasNext() {return current != null;}
+```
+to
+
+```
+public boolean hasNext() {return current.next != null;}
+```
