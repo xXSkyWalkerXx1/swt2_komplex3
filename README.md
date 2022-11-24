@@ -77,7 +77,7 @@ geändert zu
 if (end != null) {end.next = e;}
 ```
 
-### Zeile 68
+#### Zeile 68
 ```
 public E next() {
    current = current.next;
