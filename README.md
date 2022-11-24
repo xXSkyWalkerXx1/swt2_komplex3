@@ -58,3 +58,14 @@ Hierbei handelt es sich um den allgemeinen Syntax. Alle möglichen Argumente kö
 Anschließend (in IntelliJ) zu "Run -> Edit Configurations" navigieren und eine neue Konfiguration erstellen. Dazu auf "+" klicken, "jUnit" auswählen und JaCoCo als Coverage-Runner auswählen ("Modify Options -> Specify alternative coverage runner"). Die Konfiguration von JaCoCo kann außerdem über das gleiche Fenster ("Modify") erfolgen.
 
 ## Aufgabe 6
+Notizen:
+
+### Line35
+Changed
+```
+if (end != null); {end.next = e;}
+```
+to
+´´´
+if (end != null) {end.next = e;}
+´´´
