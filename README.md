@@ -43,8 +43,12 @@ Zur Installation von Jacoco wurde folgendes Element zum "dependencies" Element h
 ```
 Warum kein EclEmma? EclEmma ist nur für Eclipse, während JaCoCo (basierend auf EclEmma) für jede Java-VM basierte Umgebung zugänglich ist (siehe [hier](https://www.jacoco.org/jacoco/trunk/doc/mission.html) und [hier](https://www.jacoco.org/jacoco/trunk/doc/integrations.html)).
 
-### Arten der Abdeckung (siehe [hier](https://www.michael-albrecht.de/tdd/jacoco/) für mehr)
-Instruktionen/Anweisungen (C0 Coverage), Branches (C1 Coverage), Codezeilen/Lines, Methoden, Typen und zyklomatischer Komplexität.
+### Arten der Abdeckung (siehe [hier](https://www.michael-albrecht.de/tdd/jacoco/) für genaueres)
+* Instruktionen/Anweisungen (C0 Coverage)
+* Branches (C1 Coverage)
+* Codezeilen/Lines, Methoden
+* Typen
+* Zyklomatische Komplexität.
 
 ### Konfiguration
 Erweiterung der Jacoco Dependency um folgendes Element:
