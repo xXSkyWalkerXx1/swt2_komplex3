@@ -103,15 +103,17 @@ Um die Warnungen im Compiler (bei IntelliJ) zu aktivieren:
 ![](./Images/IntelliJ_Show_Warnings.png)
 _(Standardmäßig sollte dies, bei IntelliJ, aktiviert sein)_
 
-Zur Installation von SpotBugs, wie bereits oben beschrieben, folgendes Element in der _pom.xml_
-dem Element _dependencies_ hinzufügen:
+Zur Installation von SpotBugs, wie bereits oben beschrieben, folgendes zur _pom.xml_ hinzufügen:
 ```
-<dependency>
-    <groupId>com.github.spotbugs</groupId>
-    <artifactId>spotbugs</artifactId>
-    <version>4.7.3</version>
-    <type>pom</type>
-</dependency>
+<reporting>
+   <plugins>
+      <plugin>
+         <groupId>com.github.spotbugs</groupId>
+         <artifactId>spotbugs-maven-plugin</artifactId>
+         <version>4.7.3.0</version>
+      </plugin>
+   </plugins>
+</reporting>
 ```
 
 ### Zusatz:
