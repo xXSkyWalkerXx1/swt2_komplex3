@@ -7,9 +7,6 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
 
-/**
- * Achtung! Einige der Methoden sind fehlerhaft und müssen repariert werden.
- */
 public class SimpleLinkedList<E> extends AbstractCollection<E> implements Collection<E> {
 
     private Elem start = null;
