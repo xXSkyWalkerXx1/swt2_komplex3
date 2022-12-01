@@ -11,7 +11,7 @@ Zunächst habe ich die Datei im LightMode geöffnet. Anschließend habe ich auf 
 ```mvn test-compile```
 
 ## Aufgabe 4
-Zunächst habe ich die POM-Datei um das Element "dependencies" erweitert und anschließend dieses um 2 "dependency" Elemente, 
+Zunächst habe ich die POM-Datei um das Element _dependencies_ erweitert und anschließend dieses um 2 _dependency_ Elemente, 
 für jUnit & AssertJ, erweitert. 
 
 Zusammengefasst ergab sich diese Änderung/Erweiterung in der POM-Datei:
@@ -33,7 +33,7 @@ Zusammengefasst ergab sich diese Änderung/Erweiterung in der POM-Datei:
 ```
 
 ## Aufgabe 5
-Zur Installation von Jacoco wurde folgendes Element zum "dependencies" Element hinzugefügt:
+Zur Installation von Jacoco wurde folgendes Element zum _dependencies_ Element hinzugefügt:
 ```
 <dependency>
   <groupId>org.jacoco</groupId>
@@ -59,11 +59,11 @@ Erweiterung der Jacoco Dependency um folgendes Element:
 ```
 Hierbei handelt es sich um den allgemeinen Syntax. Alle möglichen Argumente können [hier]([https://link-url-here.org](https://www.eclemma.org/jacoco/trunk/doc/prepare-agent-mojo.html)) gefunden werden.
 
-Anschließend (in IntelliJ) zu "Run -> Edit Configurations" navigieren und eine neue Konfiguration erstellen. Dazu auf "+" klicken, "jUnit" auswählen und JaCoCo als Coverage-Runner auswählen ("Modify Options -> Specify alternative coverage runner"). Die Konfiguration von JaCoCo kann außerdem über das gleiche Fenster ("Modify") erfolgen.
+Anschließend (in IntelliJ) zu "Run -> Edit Configurations" navigieren und eine neue Konfiguration erstellen. Dazu auf "+" klicken, _jUnit_ auswählen und JaCoCo als Coverage-Runner auswählen (_Modify Options -> Specify alternative coverage runner_). Die Konfiguration von JaCoCo kann außerdem über das gleiche Fenster (_Modify_) erfolgen.
 
 ## Aufgabe 6
-1. Neue Klasse, unter "src -> test -> java" erstellt
-2. jUnit in die Datei importiert:
+1. Neue Klasse, unter _src -> test -> java_ erstellt
+2. jUnit in diese Datei importieren:
 ```
 import junit.framework.Assert;
 import org.junit.jupiter.api.*;
@@ -95,4 +95,22 @@ public E next() {
    current = current.next;
    return last.elem;
 }
+```
+
+## Aufgabe 7
+
+Um die Warnungen im Compiler (bei IntelliJ) zu aktivieren:
+![](./Images/IntelliJ_Show_Warnings.png)
+_(Standardmäßig sollte dies, bei IntelliJ, aktiviert sein)_
+
+Zur Installation von SpotBugs, wie bereits oben beschrieben, folgendes Element in der _pom.xml_
+dem Element _dependencies_ hinzufügen:
+```
+<dependency>
+    <groupId>com.github.spotbugs</groupId>
+    <artifactId>spotbugs</artifactId>
+    <version>4.7.3</version>
+    <type>pom</type>
+</dependency>
+
 ```
