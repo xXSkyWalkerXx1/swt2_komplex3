@@ -120,7 +120,7 @@ Zur Installation von SpotBugs, wie bereits oben beschrieben, folgendes zur _pom.
 ```
 
 ### Nach Ausführung von SpotBugs:
-ToDo: fix _site error: org.apache.maven.doxia.siterenderer.DocumentContent_ !
+ToDo: fix _[SpotBugs Fehler](https://github.com/xXSkyWalkerXx1/swt2_komplex3/issues/2)_ !
 
 ### Zusatz:
 Übrigens, um die Warnungen/Errors/etc. zu beseitigen, gibt es in IntelliJ die Option _Show Quick Fixes_:
