@@ -8,7 +8,7 @@ public class SimpleLinkedListTest {
     static int[] dummyValues = new int[]{0,1,2};
 
     /***
-     * Static method to setup once everything we need for all testcases.
+     * Static method to set up once everything we need for all testcases.
      */
     @BeforeAll
     static void setUp(){
@@ -39,7 +39,7 @@ public class SimpleLinkedListTest {
     }
 
     /***
-     * Check, whether we can iterate throught the instance.
+     * Check, whether we can iterate through the instance.
      * This case is used to determinate any exceptions, like NullPointerException and so on.
      */
     @Test
