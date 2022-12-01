@@ -116,6 +116,9 @@ Zur Installation von SpotBugs, wie bereits oben beschrieben, folgendes zur _pom.
 </reporting>
 ```
 
+### Nach Ausführung von SpotBugs:
+ToDo!
+
 ### Zusatz:
 Übrigens, um die Warnungen/Errors/etc. zu beseitigen, gibt es in IntelliJ die Option _Show Quick Fixes_:
 ![](./Images/IntelliJ_Show_QuickFixes.png)
