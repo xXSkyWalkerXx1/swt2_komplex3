@@ -126,3 +126,23 @@ ToDo: [Maven Fehler fixen](https://github.com/xXSkyWalkerXx1/swt2_komplex3/issue
 Übrigens, um die Warnungen/Errors/etc. zu beseitigen, gibt es in IntelliJ die Option _Show Quick Fixes_:
 ![](./Images/IntelliJ_Show_QuickFixes.png)
 _(Das Menu erscheint bei dem Glühbirnen-Icon)_
+
+## Aufgabe 8
+Zur Demonstration des IntelliJ-Debuggers habe ich die `public static void main(String[] args) {}`-Methode zur `SimpleLinkedList`-Klasse
+hinzugefügt. Dieser Schritt ist nötig, um die Anwendung zu debuggen (_alternativ hätte man die Tests debuggen könne_).
+Der blaue Balken (_siehe Bild_) kennzeichnet hierbei die nächste Codezeile, die vom Debugger ausgeführt wird.
+Zusätzlich habe ich in der Zeile 27 und 29-34 Breakpoints gesetzt, wodurch die Rückgabewerde sowie die Listengröße am Ende der Codezeile angezeigt werden.
+Im Variable-View Panel werden letztlich alle *Variablen* der durchlaufenen Codezeilen angezeigt.
+![](./Images/Debugging/initial.png)
+
+Im nächsten Schritt (_mit F8_) wird eine Instanz der Klasse erzeugt, zu der später 4 Elemente hinzugefügt werden.
+![](./Images/Debugging/step_1.png)
+
+Nun werden 4 Elemente hinzugefügt.
+![](./Images/Debugging/step_2.png)
+![](./Images/Debugging/step_3.png)
+![](./Images/Debugging/step_4.png)
+![](./Images/Debugging/step_5.png)
+
+Nach dem letzten Breakpoint habe ich zusätzlich eine Variable hinzugefügt, um ein Abbild der Liste als String zu erhalten.
+![](./Images/Debugging/end.png)
