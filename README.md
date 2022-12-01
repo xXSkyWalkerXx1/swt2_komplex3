@@ -17,18 +17,18 @@ für jUnit & AssertJ, erweitert.
 Zusammengefasst ergab sich diese Änderung/Erweiterung in der POM-Datei:
 ```
 <dependencies>
-  <dependency>
-    <groupId>org.junit.jupiter</groupId>
-    <artifactId>junit-jupiter-api</artifactId>
-    <version>5.9.1</version>
-    <scope>test</scope>
-  </dependency>
-  <dependency>
-    <groupId>org.assertj</groupId>
-    <artifactId>assertj-core</artifactId>
-    <version>3.23.1</version>
-    <scope>test</scope>
-  </dependency>
+   <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>5.9.1</version>
+      <scope>test</scope>
+   </dependency>
+   <dependency>
+      <groupId>org.assertj</groupId>
+      <artifactId>assertj-core</artifactId>
+      <version>3.23.1</version>
+      <scope>test</scope>
+   </dependency>
 </dependencies>
 ```
 
@@ -36,9 +36,9 @@ Zusammengefasst ergab sich diese Änderung/Erweiterung in der POM-Datei:
 Zur Installation von Jacoco wurde folgendes Element zum _dependencies_ Element hinzugefügt:
 ```
 <dependency>
-  <groupId>org.jacoco</groupId>
-  <artifactId>jacoco-maven-plugin</artifactId>
-  <version>0.8.8</version>
+   <groupId>org.jacoco</groupId>
+   <artifactId>jacoco-maven-plugin</artifactId>
+   <version>0.8.8</version>
 </dependency>
 ```
 Warum kein EclEmma? EclEmma ist nur für Eclipse, während JaCoCo (basierend auf EclEmma) für jede Java-VM basierte Umgebung zugänglich ist (siehe [hier](https://www.jacoco.org/jacoco/trunk/doc/mission.html) und [hier](https://www.jacoco.org/jacoco/trunk/doc/integrations.html)).
@@ -117,7 +117,7 @@ Zur Installation von SpotBugs, wie bereits oben beschrieben, folgendes zur _pom.
 ```
 
 ### Nach Ausführung von SpotBugs:
-ToDo: fix _site error: org.apache.maven.doxia.siterenderer.DocumentContent_!
+ToDo: fix _site error: org.apache.maven.doxia.siterenderer.DocumentContent_ !
 
 ### Zusatz:
 Übrigens, um die Warnungen/Errors/etc. zu beseitigen, gibt es in IntelliJ die Option _Show Quick Fixes_:
