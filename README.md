@@ -112,5 +112,9 @@ dem Element _dependencies_ hinzufügen:
     <version>4.7.3</version>
     <type>pom</type>
 </dependency>
-
 ```
+
+### Zusatz:
+Übrigens, um die Warnungen/Errors/etc. zu beseitigen, gibt es in IntelliJ die Option _Show Quick Fixes_:
+![](./Images/IntelliJ_Show_QuickFixes.png)
+_(Das Menu erscheint bei dem Glühbirnen-Icon)_
