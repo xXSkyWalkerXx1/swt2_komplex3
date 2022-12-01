@@ -1,5 +1,8 @@
 # Vorgehen zum Übungskomplex
 
+Authore/n: Philipp Jonscher
+Gruppe: Mittwoch_G3
+
 ## Aufgabe 3
 Zunächst habe ich die Datei im LightMode geöffnet. Anschließend habe ich auf "Access full IDE" geklickt, dann 
 über "New Project -> Maven -> Next" navigiert, Projektname & Pfad eingetragen und anschließend auf "Finish" geklickt.
